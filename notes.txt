@@ -1,0 +1,65 @@
+
+
+for each team
+    for each season
+        for each game
+            sum of 0, 1, and 2s / games
+            average coef
+        for each group
+            sum of 0, 1, and 2s / games
+            average coef
+        for each k-round
+            sum of 0, 1, and 2s / games
+            average coef
+        for each final
+            0, 1, or 2
+            coef
+
+template = pd.DataFrame(columns=[
+        'season',
+        'rnd',
+        'team',
+
+        'group1_avg_coef',
+        'group1_ave_group',
+        'group1_group0',
+        'group1_group1'
+        'group1_group2',
+
+        'group2_avg_coef',
+        'group2_ave_group',
+        'group2_group0',
+        'group2_group1',
+        'group2_group2',
+
+        'group_avg_coef',
+        'group_ave_group',
+        'group_group0',
+        'group_group1',
+        'group_group2',
+
+        'r16_avg_coef',
+        'r16_ave_group',
+        'r16_group0',
+        'r16_group1'
+        'r16_group2',
+
+        'quarters_avg_coef',
+        'quarters_ave_group',
+        'quarters_group0',
+        'quarters_group1',
+        'quarters_group2',
+
+        'semis_avg_coef',
+        'semis_ave_group',
+        'semis_group0',
+        'semis_group1',
+        'semis_group2',
+
+        'final_avg_coef',
+        'final_ave_group',
+        'final_group0',
+        'final_group1',
+        'final_group2'
+])
+       
